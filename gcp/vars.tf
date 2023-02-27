@@ -24,6 +24,11 @@ variable "tfc_project_name" {
   description = "The project under which a workspace will be created"
 }
 
+variable "tfc_project_id" {
+  type        = string
+  description = "The project id under which a workspace will be created"
+}
+
 variable "tfc_workspace_name" {
   type        = string
   default     = "my-gcp-workspace"
